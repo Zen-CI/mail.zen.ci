@@ -1,0 +1,17 @@
+@import "variables.scss";
+@import "bootstrap.scss";
+@import "blocks.scss";
+
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 60px);
+}
+
+.bg-footer {
+  color: $gray-500;
+}
+
+@import "source/custom.scss";
