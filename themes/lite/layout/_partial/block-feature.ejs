@@ -1,6 +1,6 @@
 <div class="block-feature">
   <div class="image">
-    <img src="<%- url_for("/images/features/" + img) %>" class="<%= imgClass %>"/>
+    <%- fa_inline(icon.name, {prefix: icon.prefix}) %>
   </div>
   <h3 class="title"><%= title %></h3>
   <div class="description"><%- description %></div>

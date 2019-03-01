@@ -1,0 +1,14 @@
+plan1:
+  title: Zen in Your Issues.
+  description: Rules ZenCI process routine tasks on your <strong>Issues</strong>.
+  img: logo.svg
+  price: 0
+  term: per month
+
+plan2:
+  title: Zen in Your Issues.
+  description: Rules ZenCI process routine tasks on your <strong>Issues</strong>.
+  img: logo.svg
+  price: 1
+  term: per month
+
