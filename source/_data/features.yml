@@ -1,0 +1,18 @@
+feature1:
+  title: Feature 1.
+  description: Awesome.
+  img: logo.svg
+  type: white
+  imgClass: logo
+feature2:
+  title: Feature 1.
+  description: Awesome.
+  img: logo.svg
+  type: white
+  imgClass: logo
+feature3:
+  title: Feature 1.
+  description: Awesome.
+  img: logo.svg
+  type: white
+  imgClass: logo

@@ -1,0 +1,14 @@
+header:
+  title: Zen in Your Issues.
+  description: Rules ZenCI process routine tasks on your <strong>Issues</strong>.
+  img: logo.svg
+  type: white
+  imgClass: logo
+
+header2:
+  title: Zen in Your Issues.
+  description: Rules ZenCI process routine tasks on your <strong>Issues</strong>.
+  img: logo.svg
+  type: white
+  imgClass: ""
+
