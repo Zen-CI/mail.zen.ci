@@ -1,14 +1,14 @@
 plan1:
-  title: Zen in Your Issues.
-  description: Rules ZenCI process routine tasks on your <strong>Issues</strong>.
-  img: logo.svg
+  title: Open Source.
+  description: Public repos are <strong>free</strong>
+  img: stamp3.png
   price: 0
   term: per month
 
 plan2:
-  title: Zen in Your Issues.
-  description: Rules ZenCI process routine tasks on your <strong>Issues</strong>.
-  img: logo.svg
+  title: Business.
+  description: Private repositories
+  img: stamp3.png
   price: 1
   term: per month
 

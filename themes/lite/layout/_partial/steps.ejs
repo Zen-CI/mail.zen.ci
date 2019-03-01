@@ -1,0 +1,21 @@
+<div class="block block-steps" id="<%- id %>">
+    <div class="envelop">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <center>
+            <h2><%= title %></h2>
+          </center>
+        </div>
+      </div>
+      <div class="row">
+      <% var i=1 %>
+      <% for (var step in steps){  steps[step].id = id; steps[step].num = i++; %>
+        <div class="col">
+          <%- partial('_partial/step', steps[step]) %>
+        </div>
+      <% } %>
+      </div>
+    </div>
+    </div>
+  </div>

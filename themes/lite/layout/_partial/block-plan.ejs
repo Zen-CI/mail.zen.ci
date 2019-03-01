@@ -1,5 +1,5 @@
 <center>
-  <div class="card" style="width: 18rem;">
+  <div class="card plan mb-3" style="width: 18rem;">
     <img src="<%- url_for("/images/plans/" + img) %>" class="card-img-top"/>
     <div class="card-body">
       <h5 class="card-title"><%= title %></h5>
@@ -7,8 +7,8 @@
         <p>
           <%- description %>
         </p>
-        <div>$<%- price %></div>
-        <div><%- term %></div>
+        <div class="price">$<%- price %></div>
+        <div class="term"><%- term %></div>
       </p>
       <a href="#" class="btn btn-dark">Activate</a>
     </div>
