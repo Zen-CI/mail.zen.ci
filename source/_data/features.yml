@@ -1,24 +1,32 @@
-feature1:
-  title: Feature 1.
-  description: Awesome.
+tracking:
+  title: Email Tracking status
+  description: Each comment has delivery and open status. We update "open" status each time, when client opens email.
   icon: 
-    name: apple
-    prefix: fab
+    name: envelope-open
+    prefix: fas
   type: white
   imgClass: logo
-feature2:
-  title: Feature 1.
-  description: Awesome.
+from:
+  title: "FROM: detection"
+  description: We automatically detect your email address. All Comment notifications to client sent from issues looks like reply by Your email.
   type: white
   icon: 
-    name: hdd
+    name: user-circle
+    prefix: far
+  imgClass: logo
+spf:
+  title: SPF & DKIM & DRAC
+  description: We support SPF, DKIM and DRAC. Your emails should <b>not</b> go to Junk.
+  type: white
+  icon: 
+    name: shield-alt
     prefix: fas
   imgClass: logo
-feature3:
-  title: Feature 1.
-  description: Awesome.
+stop:
+  title: Stop word
+  description: Not all comments should go to client. Use <b>skip-notify</b> to prevent comments from sending to client. 
   type: white
   icon: 
-    name: bars
+    name: ban
     prefix: fas
   imgClass: logo

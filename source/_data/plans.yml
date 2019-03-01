@@ -1,14 +1,21 @@
-plan1:
-  title: Open Source.
-  description: Public repos are <strong>free</strong>
+opensource:
+  title: Open Source
+  description: Unlimited public repos<br> Lifetime support
   img: stamp3.png
   price: 0
   term: per month
 
-plan2:
-  title: Business.
-  description: Private repositories
+personal:
+  title: Personal Account
+  description: Unlimited public repos<br> Price per private repo
   img: stamp3.png
   price: 1
+  term: per month
+
+business:
+  title: Business
+  description: Unlimited public repos<br> Price per private repo
+  img: stamp3.png
+  price: 5
   term: per month
 
