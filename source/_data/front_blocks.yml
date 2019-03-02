@@ -1,6 +1,6 @@
 welcome:
-  title: ZenCIMail in Your Issues.
-  description: Integrate support into github flow. <br>Turn each support request into issue. <br>Get rid of broken communication between <br>developers, support and clients. <br><a href="" class="btn btn-primary">Activate</a> <b> Free trial for 14 days</b>
+  title: Emails in Your GitHub Issues.
+  description: <a href="" class="btn btn-primary">Activate</a> <b> Free trial for 14 days</b>
   img: logo.svg
   type: white
   imgClass: logo

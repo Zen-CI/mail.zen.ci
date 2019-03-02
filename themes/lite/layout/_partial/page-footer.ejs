@@ -1,6 +1,15 @@
 <footer class="bg-footer">
   <div class="container-fluid p-2">
     <center>
+      <ul class="nav justify-content-center">
+        <% for (var i in site.data.bottom_menu){ %>
+          <li class="nav-item <%= is_current(site.data.bottom_menu[i]) ? 'active' : '' %>">
+            <a class="nav-link" href="<%- url_for(site.data.bottom_menu[i]) %>"><%= i %></a>
+          </li>
+        <% } %>
+      </ul>
+    </center>
+    <center>
       <div class="copyright"><%= config.author %></div>
       <a href="<%- config.root %>"><img class="logo" src="<%- url_for("/images/logo.svg") %>"></a>
     </center>

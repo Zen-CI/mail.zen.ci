@@ -8,13 +8,18 @@
           </center>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
       <% var i=1 %>
       <% for (var step in steps){  steps[step].id = id; steps[step].num = i++; %>
         <div class="col-md-4 col-sm-12">
           <%- partial('_partial/step', steps[step]) %>
         </div>
       <% } %>
+      </div>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <img src="<%- url_for("/images/example.png") %>" class="card-img-top"/>
+        </div>
       </div>
     </div>
     </div>
