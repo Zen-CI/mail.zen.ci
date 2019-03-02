@@ -1,0 +1,17 @@
+.step {
+  padding: 15px; }
+
+.step .image {
+  width: 138px;
+  padding: 10px; }
+
+.step .image img {
+  width: 100%; }
+
+.step .title {
+  margin-bottom: 1rem;
+  font-weight: bold; }
+
+.step .description {
+  text-align: justify;
+  font-weight: 200; }
