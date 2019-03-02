@@ -3,7 +3,7 @@ header:
   description: You automatically send copy to us. <b>ZemCIMail</b> convert email into markdown and generate new github issue making it available for github flow integration.
   img: send.png
   type: white
-  imgClass: logo
+  imgClass: ""
 
 header2:
   title: Issue commented by your team
